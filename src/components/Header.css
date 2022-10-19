@@ -1,0 +1,12 @@
+header {
+  background-color: rgb(140, 93, 42);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+  color: aliceblue;
+}

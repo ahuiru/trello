@@ -10,3 +10,11 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+.taskCard {
+  width: 250px;
+  padding: 10px 25px;
+  margin: 10px 1%;
+  background-color: antiquewhite;
+  border-radius: 3px;
+}

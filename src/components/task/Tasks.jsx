@@ -1,10 +1,15 @@
-import React from 'react'
-import { Task } from './Task'
+import React from "react";
+import { Task } from "./Task";
 
-export const Tasks = () => {
+export const Tasks = ({ taskList, setTaskList, inputText, setInputText }) => {
   return (
     <div>
-      <Task/>
+      {taskList.map((task) => (
+        <div><Task task={task} /></div>
+      ))}
     </div>
-  )
-}
+    // <div>
+    //   <Task taskList={taskList} />
+    // </div>
+  );
+};

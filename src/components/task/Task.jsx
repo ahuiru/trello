@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export const Task = () => {
+export const Task = ({ task }) => {
   return (
-    <div>
-
+    // <div key={task.id}>
+    <div className="taskBox">
+      <span className="taskText">{task.text}</span>
     </div>
-  )
-}
+  );
+};

@@ -5,6 +5,9 @@ export const Task = ({ task }) => {
     // <div key={task.id}>
     <div className="taskBox">
       <span className="taskText">{task.text}</span>
+        <button className="taskTrashButton">
+          <i class="fas fa-trash-alt"></i>
+        </button>
     </div>
   );
 };

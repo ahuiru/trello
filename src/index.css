@@ -37,8 +37,29 @@
 .taskAddInput {
   width: 100%;
   padding: 10px 15px;
+  margin-bottom: 20px;
   font-size: 1.1rem;
   border-radius: 4px;
   border: none;
   outline: none;
+}
+
+.taskBox {
+  display: flex;
+  margin-bottom: 12px;
+  padding: 15px 10px;
+  box-shadow: 1px 2px 4px black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.taskText {
+  width: 80%;
+  padding-left: 3px;
+}
+
+.taskTrashButton {
+  width: 20%;
+  border: none;
+  background: none;
 }

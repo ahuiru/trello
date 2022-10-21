@@ -1,25 +1,25 @@
+import { ulid } from "ulid";
+
 export const TaskAddInput = ({
   taskList,
   setTaskList,
   inputText,
   setInputText,
 }) => {
-
   const handleChange = (e) => {
     setInputText(e.target.value);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (inputText === "") return;
     setTaskList([
       ...taskList,
       {
         text: inputText,
-        // id: inputText.length,
+        id: ulid(),
       },
     ]);
-    // console.log(taskList);
-    // console.log(inputText);
     setInputText("");
   };
 

@@ -5,7 +5,7 @@ export const Tasks = ({ taskList, setTaskList, inputText, setInputText }) => {
   return (
     <div>
       {taskList.map((task) => (
-        <div><Task task={task} /></div>
+        <div key={task.id}><Task task={task} taskList={taskList} setTaskList={setTaskList} /></div>
       ))}
     </div>
     // <div>

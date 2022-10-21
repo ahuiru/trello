@@ -18,6 +18,7 @@ export const TaskAddInput = ({
       {
         text: inputText,
         id: ulid(),
+        draggableId: `task-${ulid()}`
       },
     ]);
     setInputText("");

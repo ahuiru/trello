@@ -64,3 +64,30 @@
   background: none;
   cursor: pointer;
 }
+
+.taskCardArea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.addTaskCardButtonArea {
+  margin-left: 1%;
+  margin-top: 25px;
+}
+
+.addTaskCardButton {
+  padding: 10px 18px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: rgb(248, 217, 177);
+  box-shadow: 2px 2px 1px 1px black;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.addTaskCardButton:hover {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+}
